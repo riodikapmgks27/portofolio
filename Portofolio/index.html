@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rio Dika Pamungkas | Profesional Working</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: { brand: '#2563eb' }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-slate-900 font-['Inter'] transition-colors duration-500 dark:bg-[#0f172a] dark:text-slate-200">
+
+ <nav id="navbar" class="fixed w-full top-0 z-[100] py-4 transition-all duration-500">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="grid grid-cols-2 md:grid-cols-3 items-center bg-white/90 dark:bg-slate-900/90 backdrop-blur-xl p-3 rounded-2xl border border-slate-200/50 dark:border-slate-800/50 shadow-xl">
+            
+            <div class="flex justify-start pl-2">
+                <a href="#" class="text-xl font-black tracking-tighter text-brand">RioDikaPamungkas<span class="text-slate-400"></span></a>
+            </div>
+            
+            <div class="hidden md:flex justify-center items-center gap-8">
+                <a href="#about" class="nav-link-v3">Profil</a>
+                <a href="#experience" class="nav-link-v3">Karir</a>
+                <a href="#Job Application" class="nav-link-v3">Lamaran</a>
+                <a href="#skills" class="nav-link-v3">Skill</a>
+                <a href="#certificates" class="nav-link-v3">Sertifikat</a>
+                <a href="#Courses" class="nav-link-v3">Kursus</a>
+            </div>
+
+            <div class="flex justify-end items-center gap-3 pr-2">
+                <button id="theme-toggle" class="hidden md:block p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">🌙</button>
+                
+                <a href="cv/CV RIO TERBARU.pdf" download class="hidden md:block bg-brand text-white px-5 py-2.5 rounded-xl text-[10px] font-black tracking-widest hover:shadow-lg hover:shadow-brand/20 transition-all">
+                    UNDUH CV
+                </a>
+
+                <div class="flex md:hidden items-center gap-2">
+                    <button id="mobile-theme-toggle" class="p-2 text-sm">🌙</button>
+                    <button id="menu-toggle" class="p-2 bg-slate-100 dark:bg-slate-800 rounded-lg text-brand">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden mt-2 p-4 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-2xl flex flex-col gap-1 md:hidden">
+            <a href="#about" class="py-3 px-4 text-sm font-bold border-b border-slate-50 dark:border-slate-800">Profil</a>
+            <a href="#experience" class="py-3 px-4 text-sm font-bold border-b border-slate-50 dark:border-slate-800">Pengalaman</a>
+            <a href="#Job Application" class="py-3 px-4 text-sm font-bold border-b border-slate-50 dark:border-slate-800">Lamaran</a>
+            <a href="#skills" class="py-3 px-4 text-sm font-bold border-b border-slate-50 dark:border-slate-800">Skills</a>
+            <a href="#certificates" class="py-3 px-4 text-sm font-bold border-b border-slate-50 dark:border-slate-800">Sertifikat</a>
+            <a href="#Courses" class="py-3 px-4 text-sm font-bold border-b border-slate-50 dark:border-slate-800">Kursus</a>
+            <a href="cv/" class="mt-2 bg-brand text-white py-3 rounded-xl font-bold text-center">Unduh CV</a>
+        </div>
+    </div>
+</nav>
+
+<header id="about" class="min-h-screen flex items-center justify-center pt-40 pb-20 px-6 bg-white dark:bg-[#0f172a] transition-colors duration-500 overflow-hidden">
+    <div class="max-w-6xl mx-auto w-full">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
+            
+            <div class="order-2 md:order-1 text-center md:text-left flex flex-col items-center md:items-start animate-drop">
+                <div class="inline-flex items-center gap-2 px-3 py-1 mb-6 text-[10px] font-bold tracking-widest text-brand bg-brand/5 border border-brand/10 rounded-full uppercase">
+                    <span class="w-2 h-2 rounded-full bg-brand animate-pulse"></span>
+                    Tersedia untuk Pekerjaan Full-time
+                </div>
+                
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold dark:text-white mb-6 leading-[1.1] tracking-tight">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand to-purple-600">Rio Dika Pamungkas</span>
+                </h1>
+                
+                <div class="space-y-6 max-w-xl">
+                    <p class="text-slate-600 dark:text-slate-400 text-lg leading-relaxed font-light">
+                        Saya Seorang <span class="font-semibold text-slate-900 dark:text-white border-b-2 border-brand/20">Profesional Analisis</span> dengan pengalaman lebih dari <span class="text-brand font-bold">5 tahun</span> Pernah bekerja dibidang Administasi,Restaurant,Banking Officer, And Hospital
+                    </p>
+                    <p class="text-slate-500 dark:text-slate-400 text-base leading-relaxed">
+                        Mengikuti berbagai pelatihan, seminar, dan kursus untuk meningkatkan keterampilan profesionalis. Saya selalu berusaha untuk tetap up-to-date dengan perkembangan terbaru dalam industri,company,Perorangan.
+                        <span class="italic">dengan kemampuan dan keterampilan serta niat ingin mempelajari segala hal baru saya akan terus mencoba ketika mereka bilang itu sulit saya akan terus berlatih ketika itu gagal<span class="font-semibold text-slate-900 dark:text-white border-b-2 border-brand/20"> Karena kami percaya bahwa seseuatu yang sulit tidak didapat dengan cara yang mudah.<span>
+                    </p>
+                </div>
+
+                <div class="mt-10 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                    <a href="#experience" class="group relative px-10 py-4 bg-slate-900 dark:bg-white dark:text-slate-900 text-white rounded-2xl font-bold transition-all hover:shadow-2xl active:scale-95 overflow-hidden text-center">
+                        <span class="relative z-10">Lihat Pengalaman</span>
+                        <div class="absolute inset-0 bg-brand scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500"></div>
+                    </a>
+                    
+                    <a href="mailto:riodikapamungkas27@gmail.com" class="px-10 py-4 border-2 border-slate-200 dark:border-slate-700 dark:text-white rounded-2xl font-bold hover:bg-slate-50 dark:hover:bg-slate-800 transition-all text-center flex items-center justify-center gap-2">
+                        <span>Kontak Gmail</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="order-1 md:order-2 flex justify-center items-center relative animate-slide-right">
+                <div class="absolute inset-0 bg-brand/20 blur-[100px] rounded-full scale-125 -z-10 animate-pulse"></div>
+                
+                <div class="relative group">
+                    <div class="w-64 h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px] rounded-[3rem] overflow-hidden border-8 border-white dark:border-slate-800 shadow-2xl transition-all duration-700 group-hover:scale-[1.03]">
+                        <img id="profile-img" src="img/Pas Foto Terbaru_1.jpg" alt="Rio Dika Pamungkas" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110 cursor-pointer">
+                    </div>
+
+                    <div class="absolute -bottom-6 -right-6 bg-brand text-white p-4 md:p-5 rounded-3xl shadow-2xl border-4 border-white dark:border-slate-800 animate-float-badge">
+                        <div class="flex items-center gap-3">
+                            <div class="w-2 h-2 bg-white rounded-full animate-ping"></div>
+                            <div>
+                                <p class="text-[10px] font-black uppercase tracking-widest opacity-80">Professional</p>
+                                <p class="text-xs font-bold">Rio Dika Pamungkas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> 
+    </div> 
+</header>
+
+<div id="img-modal" class="fixed inset-0 z-[200] hidden bg-black/90 backdrop-blur-sm flex items-center justify-center p-4 cursor-zoom-out">
+    <span class="absolute top-10 right-10 text-white text-4xl font-bold cursor-pointer hover:text-brand transition-colors">&times;</span>
+    <img id="modal-content" class="max-w-full max-h-[90vh] rounded-2xl shadow-2xl transform transition-all duration-500 scale-95 opacity-0">
+</div>
+
+    <section id="experience" class="py-24 px-6 max-w-5xl mx-auto reveal reveal-bottom">
+        <h2 class="text-3xl font-extrabold dark:text-white mb-16 text-center">Pengalaman Profesional</h2>
+        <div class="space-y-16">
+            <div class="relative pl-8 md:pl-12 border-l-2 border-slate-100 dark:border-slate-800">
+                <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-brand ring-4 ring-white dark:ring-[#0f172a]"></div>
+                <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold dark:text-white">Administrasi</h3>
+                        <p class="text-brand font-semibold italic">PT Tiki Express</p>
+                    </div>
+                    <span class="text-sm font-bold bg-slate-100 dark:bg-slate-800 px-4 py-1.5 rounded-full text-slate-500 mt-2 md:mt-0">September 2021 — November 2021</span>
+                </div>
+                <ul class="space-y-3 text-slate-600 dark:text-slate-400 text-sm md:text-base">
+                    <li class="flex gap-2"><span>•</span> Tugas Meliputi Mencatat data barang masuk/keluar</li>
+                    <li class="flex gap-2"><span>•</span> Membuat Laporan Harian</li>
+                    <li class="flex gap-2"><span>•</span> Memeriksa Kepatuhan Paket Dengan Dokumen</li>
+                    <li class="flex gap-2"><span>•</span> Memasukkan Data Kedalam Sistem</li>
+                    <li class="flex gap-2"><span>•</span> Memastikan Setiap Paket Diproses tepat Waktu</li>
+                </ul>
+            </div>
+        </div>
+                <div class="space-y-16">
+            <div class="relative pl-8 md:pl-12 border-l-2 border-slate-100 dark:border-slate-800">
+                <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-brand ring-4 ring-white dark:ring-[#0f172a]"></div>
+                <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold dark:text-white">Banking Officer</h3>
+                        <p class="text-brand font-semibold italic"> PT Amorindho Arta</p>
+                    </div>
+                    <span class="text-sm font-bold bg-slate-100 dark:bg-slate-800 px-4 py-1.5 rounded-full text-slate-500 mt-2 md:mt-0">April 2022  — 2022 Juli</span>
+                </div>
+                <ul class="space-y-3 text-slate-600 dark:text-slate-400 text-sm md:text-base">
+                    <li class="flex gap-2"><span>•</span> Penyortiran Uang UTLE Uang Tidak Layak Edar</li>
+                    <li class="flex gap-2"><span>•</span> Penyortiran Uang ULE Uang Layak Edar</li>
+                    <li class="flex gap-2"><span>•</span> Penyortiran Uang Rusak Khusus Penanganan</li>
+                    <li class="flex gap-2"><span>•</span> Menyesuaikan Cassete dengan pengisian dan penggantian request vendor</li>
+                    <li class="flex gap-2"><span>•</span> Menghitung Setor Tunai Dicassete sesuaikan jumlah setoran</li>
+                </ul>
+            </div>
+        </div>
+                <div class="space-y-16">
+            <div class="relative pl-8 md:pl-12 border-l-2 border-slate-100 dark:border-slate-800">
+                <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-brand ring-4 ring-white dark:ring-[#0f172a]"></div>
+                <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold dark:text-white">Rekam Medis</h3>
+                        <p class="text-brand font-semibold italic">Mayapada Hospital</p>
+                    </div>
+                    <span class="text-sm font-bold bg-slate-100 dark:bg-slate-800 px-4 py-1.5 rounded-full text-slate-500 mt-2 md:mt-0"> Oktober 2024 — Januari 2025</span>
+                </div>
+                <ul class="space-y-3 text-slate-600 dark:text-slate-400 text-sm md:text-base">
+                    <li class="flex gap-2"><span>•</span> Menyimpah Kerahasian Data Pasien</li>
+                    <li class="flex gap-2"><span>•</span> Menyimpan Data Medis Pasien</li>
+                    <li class="flex gap-2"><span>•</span> Mengelola dan Memperbarui catatan medis pasien</li>
+                    <li class="flex gap-2"><span>•</span> Membantu dalam proses pencatatan data medis</li>
+                </ul>
+            </div>
+        </div>
+                <div class="space-y-16">
+            <div class="relative pl-8 md:pl-12 border-l-2 border-slate-100 dark:border-slate-800">
+                <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-brand ring-4 ring-white dark:ring-[#0f172a]"></div>
+                <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold dark:text-white">Kitchen Staff</h3>
+                        <p class="text-brand font-semibold italic">PT Richeese Kuliner Indonesia</p>
+                    </div>
+                    <span class="text-sm font-bold bg-slate-100 dark:bg-slate-800 px-4 py-1.5 rounded-full text-slate-500 mt-2 md:mt-0">Januari 2023 — April 2024</span>
+                </div>
+                <ul class="space-y-3 text-slate-600 dark:text-slate-400 text-sm md:text-base">
+                    <li class="flex gap-2"><span>•</span> Melakukan Pehitungan Stok Gudang (Iventory Control)</li>
+                    <li class="flex gap-2"><span>•</span> Merapihkan Area kerja agar tetap deep dan clean didalam area kerja</li>
+                    <li class="flex gap-2"><span>•</span> Monitoring Pemasakan per 1 jam</li>
+                    <li class="flex gap-2"><span>•</span> Priparing,Tester,Cek Suhu Area Dapur</li>
+                    <li class="flex gap-2"><span>•</span> Menyusun barang secara FIFO FEFO</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<section>
+<section id="Job Application" class="py-24 px-6 max-w-5xl mx-auto reveal reveal-bottom">
+     <div class="max-w-6xl mx-auto">
+        <div class="letter-content" id="source-letter">
+        <div class="letter-meta">
+            <p>Perihal: Lamaran Pekerjaan</p>
+        </div>
+
+        <div class="recipient">
+            <p> Kepada Yth.<br>
+            Bapak/Ibu HRD<br>
+             </p>
+            <p>Dengan Hormat</p>
+    
+        </div>
+
+        <div class="body-text">
+         <p>
+            Nama : Rio Dika Pamungkas<br>
+            Tempat, Tanggal Lahir : Bekasi, 27 September 2004<br>
+            Alamat : Perum. Villa Bekasi indah 1 Blok G1/22<br>
+            Nomor Telepon : 081317376167<br>
+            Email : riodikapamungkas27@gmail.com
+        </p>
+        </div>
+         <br><p>
+        Dengan ini saya mengajukan lamaran pekerjaan untuk dapat bergabung dan
+        berkontribusi secara profesional di lingkungan kerja yang Bapak/Ibu pimpin.</p></br>
+        <br><p>Saya memiliki komitmen kerja yang tinggi, bertanggung jawab, serta mampu bekerja
+        secara efektif baik secara individu maupun dalam tim. Saya juga memiliki kemampuan
+        adaptasi yang baik serta motivasi untuk terus belajar dan mengembangkan diri sesuai
+        dengan kebutuhan perusahaan.
+         </p></br>
+         </div>
+          <p>Sebagai bahan pertimbangan, saya lampirkan:</p>
+      <ul>
+        <li>1.&nbsp;&nbsp;&nbsp;Daftar Riwayat Hidup (CV)</li>
+        <li>2.&nbsp;&nbsp;&nbsp;Salinan Ijazah</li>
+        <li>3.&nbsp;&nbsp;&nbsp;Salinan KTP</li>
+        <li>4.&nbsp;&nbsp;&nbsp;Pas Foto Terbaru</li>
+        <li>5.&nbsp;&nbsp;&nbsp;Dokumen pendukung lainnya</li>
+      </ul>
+        </div>
+    <br><p>
+        Besar harapan saya untuk dapat diberikan kesempatan mengikuti tahapan seleksi lebih lanjut,
+        sehingga saya dapat menjelaskan secara rinci mengenai kemampuan yang saya miliki.
+      </p></br>
+    <p>
+        Demikian surat lamaran ini saya sampaikan. Atas perhatian dan kesempatan yang diberikan,
+        saya ucapkan terima kasih.
+    </p>
+        <div class="closing">
+            <p>Hormat saya,</p>
+            <br>
+            <p><strong>Rio Dika Pamungkas</strong></p>
+        </div>
+    </div>
+
+    <button type="button" class="btn-download" onclick="generateDownload()">
+        Unduh file .txt
+    </button>
+    <!-- </section> -->
+</section>
+<section id="skills" class="py-24 px-6 max-w-5xl mx-auto reveal reveal-bottom">
+    <div class="max-w-4xl mx-auto">
+        
+        <div class="text-center mb-16">
+            <h2 class="text-[10px] font-black uppercase tracking-[0.4em] text-brand mb-4">Professionalis</h2>
+            <h3 class="text-3xl md:text-4xl font-black dark:text-white mb-4">Keahlian Operasional</h3>
+            <div class="w-16 h-1.5 bg-brand mx-auto rounded-full"></div>
+        </div>
+
+        <div class="space-y-3">
+            <div class="flex justify-between items-center">
+                <span class="text-sm font-black dark:text-white uppercase tracking-wider">Microsoft Office Suite</span>
+                <span class="text-xs font-bold text-brand bg-brand/10 px-2 py-1 rounded-lg">95%</span>
+            </div>
+            <div class="w-full h-3 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                <div class="skill-bar h-full bg-brand rounded-full" data-width="95%"></div>
+            </div>
+            <p class="text-[10px] text-slate-500 italic">Advanced Excel, Word, & PowerPoint</p>
+        </div>
+
+        <div class="space-y-3">
+            <div class="flex justify-between items-center">
+                <span class="text-sm font-black dark:text-white uppercase tracking-wider">Administrasi & Filing</span>
+                <span class="text-xs font-bold text-brand bg-brand/10 px-2 py-1 rounded-lg">90%</span>
+            </div>
+            <div class="w-full h-3 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                <div class="skill-bar h-full bg-brand rounded-full" data-width="90%"></div>
+            </div>
+            <p class="text-[10px] text-slate-500 italic">Manajemen Data, Manajemen Resiko, Manajemen Proyeksi</p>
+        </div>
+
+        <div class="space-y-3">
+            <div class="flex justify-between items-center">
+                <span class="text-sm font-black dark:text-white uppercase tracking-wider">Public Speaking</span>
+                <span class="text-xs font-bold text-brand bg-brand/10 px-2 py-1 rounded-lg">85%</span>
+            </div>
+            <div class="w-full h-3 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                <div class="skill-bar h-full bg-brand rounded-full" data-width="85%"></div>
+            </div>
+            <p class="text-[10px] text-slate-500 italic">Presentasi Bisnis & Negosiasi</p>
+        </div>
+
+        <div class="space-y-3">
+            <div class="flex justify-between items-center">
+                <span class="text-sm font-black dark:text-white uppercase tracking-wider">Adaptability</span>
+                <span class="text-xs font-bold text-brand bg-brand/10 px-2 py-1 rounded-lg">80%</span>
+            </div>
+            <div class="w-full h-3 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                <div class="skill-bar h-full bg-brand rounded-full" data-width="80%"></div>
+            </div>
+            <p class="text-[10px] text-slate-500 italic">Adaptablitity Problem Solve, Discipline</p>
+        </div>
+        <div class="space-y-3">
+            <div class="flex justify-between items-center">
+                <span class="text-sm font-black dark:text-white uppercase tracking-wider">Project Coordination</span>
+                <span class="text-xs font-bold text-brand bg-brand/10 px-2 py-1 rounded-lg">88%</span>
+            </div>
+            <div class="w-full h-3 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                <div class="skill-bar h-full bg-brand rounded-full" data-width="88%"></div>
+            </div>
+            <p class="text-[10px] text-slate-500 italic">Perencanaan tim & manajemen waktu</p>
+        </div>
+        <div class="space-y-3">
+            <div class="flex justify-between items-center">
+                <span class="text-sm font-black dark:text-white uppercase tracking-wider">Inovasi Dan Strategi</span>
+                <span class="text-xs font-bold text-brand bg-brand/10 px-2 py-1 rounded-lg">86%</span>
+            </div>
+            <div class="w-full h-3 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                <div class="skill-bar h-full bg-brand rounded-full" data-width="86%"></div>
+            </div>
+            <p class="text-[10px] text-slate-500 italic">Peluang, Ide, Inovasi, Solusi, dan Kreativitas</p>
+        </div>
+        </div>
+
+        <div class="mt-16 flex flex-wrap justify-center gap-4">
+            <div class="px-6 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl flex items-center gap-3">
+                <span class="text-brand">✔</span>
+                <span class="text-[11px] font-bold dark:text-slate-300 uppercase tracking-widest">Detail Oriented</span>
+            </div>
+            <div class="px-6 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl flex items-center gap-3">
+                <span class="text-brand">✔</span>
+                <span class="text-[11px] font-bold dark:text-slate-300 uppercase tracking-widest">Team Collaboration</span>
+            </div>
+            <div class="px-6 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl flex items-center gap-3">
+                <span class="text-brand">✔</span>
+                <span class="text-[11px] font-bold dark:text-slate-300 uppercase tracking-widest">Relationship Speaking</span>
+            </div>
+            <div class="px-6 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl flex items-center gap-3">
+                <span class="text-brand">✔</span>
+                <span class="text-[11px] font-bold dark:text-slate-300 uppercase tracking-widest">Team Leadership</span>
+            </div>
+            <div class="px-6 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl flex items-center gap-3">
+                <span class="text-brand">✔</span>
+                <span class="text-[11px] font-bold dark:text-slate-300 uppercase tracking-widest">Perencanaan</span>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section id="certificates" class="py-24 px-6 bg-slate-50 dark:bg-slate-900/30 reveal reveal-right">
+    <div class="max-w-6xl mx-auto">
+        
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-black dark:text-white mb-4">Sertifikasi & Lisensi</h2>
+            <div class="w-20 h-1.5 bg-brand mx-auto rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 overflow-hidden group hover:shadow-2xl hover:shadow-brand/10 hover:-translate-y-2 transition-all duration-500">
+                <div class="relative h-48 overflow-hidden bg-slate-200 dark:bg-slate-800">
+                    <img src="img/Sertifikat Kompetensi.png" alt="Google Data Analytics" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-brand/10 group-hover:bg-transparent transition-colors"></div>
+                </div>
+                
+                <div class="p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-2xl">📑</span>
+                        <div>
+                            <h4 class="font-bold dark:text-white leading-tight">Sertifikat Kompetensi</h4>
+                            <p class="text-[10px] text-slate-500 dark:text-slate-400 font-medium uppercase tracking-widest mt-1">Computer And Networking</p>
+                        </div>
+                    </div>
+                    
+                    <a href="Sertifikat/Sertfikat Kompetensi.pdf" target="_blank" class="block w-full text-center py-3 bg-slate-50 dark:bg-slate-800/50 dark:text-white text-brand text-xs font-black rounded-xl hover:bg-brand hover:text-white dark:hover:bg-brand transition-all uppercase tracking-widest">
+                        Buka Dokumen PDF
+                    </a>
+                </div>
+            </div>
+<!----------- Sertifikat 2 ---------> 
+            <div class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 overflow-hidden group hover:shadow-2xl hover:shadow-brand/10 hover:-translate-y-2 transition-all duration-500">
+                <div class="relative h-48 overflow-hidden bg-slate-200 dark:bg-slate-800">
+                    <img src="img/Sertifikat Pengabdian Siswa dan UMKM.png" alt="Python for Data Science" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-brand/10 group-hover:bg-transparent transition-colors"></div>
+                </div>
+
+                <div class="p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-2xl">📑</span>
+                        <div>
+                            <h4 class="font-bold dark:text-white leading-tight">Sertifikat Pengabdian Siswa dan UMKM</h4>
+                            <p class="text-[10px] text-slate-500 dark:text-slate-400 font-medium uppercase tracking-widest mt-1">Oriented Computer</p>
+                        </div>
+                    </div>
+
+                    <a href="Sertifikat/Sertifikat Pengabdian Siswa dan UMKM.pdf" target="_blank" class="block w-full text-center py-3 bg-slate-50 dark:bg-slate-800/50 dark:text-white text-brand text-xs font-black rounded-xl hover:bg-brand hover:text-white dark:hover:bg-brand transition-all uppercase tracking-widest">
+                        Buka Dokumen PDF
+                    </a>
+                </div>
+            </div>
+<!----------- Sertifikat 3 ---------> 
+            <div class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 overflow-hidden group hover:shadow-2xl hover:shadow-brand/10 hover:-translate-y-2 transition-all duration-500">
+                <div class="relative h-48 overflow-hidden bg-slate-200 dark:bg-slate-800">
+                    <img src="img/Sertifikat Microsoft Office.png" alt="Python for Data Science" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-brand/10 group-hover:bg-transparent transition-colors"></div>
+                </div>
+
+                <div class="p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-2xl">📑</span>
+                        <div>
+                            <h4 class="font-bold dark:text-white leading-tight">Sertifikat Pengabdian Siswa dan UMKM</h4>
+                            <p class="text-[10px] text-slate-500 dark:text-slate-400 font-medium uppercase tracking-widest mt-1">Sertifikat Microsoft Office</p>
+                        </div>
+                    </div>
+
+                    <a href="Sertifikat/Sertifikat Microsoft Office.pdf" target="_blank" class="block w-full text-center py-3 bg-slate-50 dark:bg-slate-800/50 dark:text-white text-brand text-xs font-black rounded-xl hover:bg-brand hover:text-white dark:hover:bg-brand transition-all uppercase tracking-widest">
+                        Buka Dokumen PDF
+                    </a>      
+               </div>
+            </div>
+<!----------- Sertifikat 1 ---------> 
+            <div class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 overflow-hidden group hover:shadow-2xl hover:shadow-brand/10 hover:-translate-y-2 transition-all duration-500">
+                <div class="relative h-48 overflow-hidden bg-slate-200 dark:bg-slate-800">
+                    <img src="img/Sertifikat TIKI.png" alt="Google Data Analytics" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-brand/10 group-hover:bg-transparent transition-colors"></div>
+                </div>
+                
+                <div class="p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-2xl">📑</span>
+                        <div>
+                            <h4 class="font-bold dark:text-white leading-tight">Sertifikat Praktik Kerja Lapangan</h4>
+                            <p class="text-[10px] text-slate-500 dark:text-slate-400 font-medium uppercase tracking-widest mt-1">PT TIKI EXPRESS</p>
+                        </div>
+                    </div>
+                    
+                    <a href="Sertifikat/Sertifikat Tiki.pdf" target="_blank" class="block w-full text-center py-3 bg-slate-50 dark:bg-slate-800/50 dark:text-white text-brand text-xs font-black rounded-xl hover:bg-brand hover:text-white dark:hover:bg-brand transition-all uppercase tracking-widest">
+                        Buka Dokumen PDF
+                    </a>
+                </div>
+            </div>
+<!----------- Sertifikat 2 ---------> 
+            <div class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 overflow-hidden group hover:shadow-2xl hover:shadow-brand/10 hover:-translate-y-2 transition-all duration-500">
+                <div class="relative h-48 overflow-hidden bg-slate-200 dark:bg-slate-800">
+                    <img src="img/Sertifikat Richeese.png" alt="Python for Data Science" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-brand/10 group-hover:bg-transparent transition-colors"></div>
+                </div>
+
+                <div class="p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-2xl">📑</span>
+                        <div>
+                            <h4 class="font-bold dark:text-white leading-tight">Sertifikat PKWT</h4>
+                            <p class="text-[10px] text-slate-500 dark:text-slate-400 font-medium uppercase tracking-widest mt-1">PT Richeese Kuliner Indonesia</p>
+                        </div>
+                    </div>
+
+                    <a href="Sertifikat/Sertifikat PKWT.pdf" target="_blank" class="block w-full text-center py-3 bg-slate-50 dark:bg-slate-800/50 dark:text-white text-brand text-xs font-black rounded-xl hover:bg-brand hover:text-white dark:hover:bg-brand transition-all uppercase tracking-widest">
+                        Buka Dokumen PDF
+                    </a>
+                </div>
+            </div>
+<!----------- Sertifikat 3 ---------> 
+            <div class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 overflow-hidden group hover:shadow-2xl hover:shadow-brand/10 hover:-translate-y-2 transition-all duration-500">
+                <div class="relative h-48 overflow-hidden bg-slate-200 dark:bg-slate-800">
+                    <img src="img/Sertifikat Mayapada.png" alt="Python for Data Science" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-brand/10 group-hover:bg-transparent transition-colors"></div>
+                </div>
+
+                <div class="p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-2xl">📑</span>
+                        <div>
+                            <h4 class="font-bold dark:text-white leading-tight">Sertifikat Mayapada Hospital</h4>
+                            <p class="text-[10px] text-slate-500 dark:text-slate-400 font-medium uppercase tracking-widest mt-1">Mayapada Hospital</p>
+                        </div>
+                    </div>
+
+                    <a href="Sertifikat/Sertifikat Mayapada.pdf" target="_blank" class="block w-full text-center py-3 bg-slate-50 dark:bg-slate-800/50 dark:text-white text-brand text-xs font-black rounded-xl hover:bg-brand hover:text-white dark:hover:bg-brand transition-all uppercase tracking-widest">
+                        Buka Dokumen PDF
+                    </a>      
+               </div>
+            </div>
+</section>
+<section id="Courses" class="py-24 px-6 bg-slate-50 dark:bg-slate-900/30 reveal reveal-right">
+    <div class="max-w-6xl mx-auto">
+        
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-black dark:text-white mb-4">Pelatihan & Seminar</h2>
+            <div class="w-20 h-1.5 bg-brand mx-auto rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 overflow-hidden group hover:shadow-2xl hover:shadow-brand/10 hover:-translate-y-2 transition-all duration-500">
+                <div class="relative h-48 overflow-hidden bg-slate-200 dark:bg-slate-800">
+                    <img src="img/Seminar.png" alt="Google Data Analytics" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-brand/10 group-hover:bg-transparent transition-colors"></div>
+                </div>
+                
+                <div class="p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-2xl">📑</span>
+                        <div>
+                            <h4 class="font-bold dark:text-white leading-tight">Seminar Ebic Economics And Bussines</h4>
+                            <p class="text-[10px] text-slate-500 dark:text-slate-400 font-medium uppercase tracking-widest mt-1">Ebic Economics And Bussines</p>
+                        </div>
+                    </div>
+                    
+                    <a href="Sertifikat/Sertificated EBIC.pdf" target="_blank" class="block w-full text-center py-3 bg-slate-50 dark:bg-slate-800/50 dark:text-white text-brand text-xs font-black rounded-xl hover:bg-brand hover:text-white dark:hover:bg-brand transition-all uppercase tracking-widest">
+                        Buka Dokumen PDF
+                    </a>
+                </div>
+            </div>
+<!----------- Seminar 2 --------->
+            <div class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 overflow-hidden group hover:shadow-2xl hover:shadow-brand/10 hover:-translate-y-2 transition-all duration-500">
+                <div class="relative h-48 overflow-hidden bg-slate-200 dark:bg-slate-800">
+                    <img src="img/Seminar 2.png" alt="Python for Data Science" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-brand/10 group-hover:bg-transparent transition-colors"></div>
+                </div>
+
+                <div class="p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-2xl">📑</span>
+                        <div>
+                            <h4 class="font-bold dark:text-white leading-tight">Sertificated LKK</h4>
+                            <p class="text-[10px] text-slate-500 dark:text-slate-400 font-medium uppercase tracking-widest mt-1">Lembaga Kebijakan dan Kajian</p>
+                        </div>
+                    </div>
+
+                    <a href="Sertifikat/Sertificated LKK.pdf" target="_blank" class="block w-full text-center py-3 bg-slate-50 dark:bg-slate-800/50 dark:text-white text-brand text-xs font-black rounded-xl hover:bg-brand hover:text-white dark:hover:bg-brand transition-all uppercase tracking-widest">
+                        Buka Dokumen PDF
+                    </a>
+                </div>
+            </div>
+<!----------- Seminar 3 --------->
+            <div class="bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 overflow-hidden group hover:shadow-2xl hover:shadow-brand/10 hover:-translate-y-2 transition-all duration-500">
+                <div class="relative h-48 overflow-hidden bg-slate-200 dark:bg-slate-800">
+                    <img src="img/Sertifikat Makro Mikro.jpg" alt="Python for Data Science" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-brand/10 group-hover:bg-transparent transition-colors"></div>
+                </div>
+
+                <div class="p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-2xl">📑</span>
+                        <div>
+                            <h4 class="font-bold dark:text-white leading-tight">Sertifikat R&D</h4>
+                            <p class="text-[10px] text-slate-500 dark:text-slate-400 font-medium uppercase tracking-widest mt-1">Makro Mikro</p>
+                        </div>
+                    </div>
+
+                    <a href="Sertifikat/Sertifikat R&D Education.pdf" target="_blank" class="block w-full text-center py-3 bg-slate-50 dark:bg-slate-800/50 dark:text-white text-brand text-xs font-black rounded-xl hover:bg-brand hover:text-white dark:hover:bg-brand transition-all uppercase tracking-widest">
+                        Buka Dokumen PDF
+                    </a>      
+               </div>
+            </div>
+        </section>
+            
+</section>
+    <footer id="contact" class="py-20 px-6 bg-slate-900 text-white rounded-t-[3rem]">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Terhubung Dengan Saya</h2>
+            <div class="flex justify-center gap-10 mb-12">
+                <a href="mailto:riodikapmgks27@gmail.com" class="hover:text-brand transition">Gmail</a>
+                <a href="https://www.linkedin.com/in/rio-dika-pamungkas-303330241?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="hover:text-brand transition">LinkedIn</a>
+                <a href="https://instagram.com/riodikapmgks_" class="hover:text-brand transition">Instagram</a>
+            </div>
+            <p class="text-slate-500 text-xs tracking-widest uppercase">© 2026 Rio Dika Pamungkas. Jakarta, Indonesia.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+<script>
+    function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        reveals.forEach((element) => {
+            var windowHeight = window.innerHeight;
+            var elementTop = element.getBoundingClientRect().top;
+            var elementVisible = 150; // Jarak munculnya section (pixel)
+
+            if (elementTop < windowHeight - elementVisible) {
+                element.classList.add("active");
+            }
+        });
+    }
+
+    // Jalankan fungsi saat scroll
+    window.addEventListener("scroll", reveal);
+
+    // Jalankan sekali saat load untuk cek section yang sudah di posisi atas
+    window.addEventListener("load", reveal);
+</script>
+
+<script>
+    const observeSkills = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Tambahkan class active ke section skills (opsional untuk animasi lain)
+                entry.target.classList.add('active');
+                
+                // Ambil semua elemen bar di dalam section ini
+                const bars = entry.target.querySelectorAll('.skill-bar');
+                
+                bars.forEach(bar => {
+                    const percentage = bar.getAttribute('data-width');
+                    bar.style.width = percentage; // Ini yang membuat bar memanjang
+                });
+                
+                // Berhenti mengamati supaya tidak animasi berulang-ulang saat scroll up/down
+                observeSkills.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.2 }); // Mulai jalan kalau 20% section sudah muncul
+
+    // Mulai amati section skills
+    const section = document.querySelector('#skills');
+    if (section) {
+        observeSkills.observe(section);
+    }
+</script>
+<script>
+        function generateDownload() {
+            const element = document.getElementById('source-letter');
+            const text = element.innerText;
+            const blob = new Blob([text], { type: 'text/plain' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            
+            a.href = url;
+            a.download = 'Surat_Lamaran_Kerja.txt';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+        }
+    </script>
+</body>
+</html>
